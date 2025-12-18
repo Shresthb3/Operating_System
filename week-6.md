@@ -44,7 +44,3 @@ Post-optimisation testing indicated that measurable improvements had been made, 
 
 The performance data was sorted into structured tables and plotted with the help of charts and graphs to demonstrate the trend of resource utilisation with time. These visual representations allowed the comparison of baseline, load, and optimised states clearly and allowed the drawing of evidence-related conclusions about the behaviour of the system and its efficiency.
 
-## References
-
-[13]: Placeholder for Citation 13
-
