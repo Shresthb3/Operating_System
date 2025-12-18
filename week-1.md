@@ -1,19 +1,38 @@
-Introduction 
-In contemporary computing, the operating systems are the solution to server performance, security, and general reliability. Stability, efficiency, and large capabilities to ensure security make Linux very widely used in data centres and cloud platforms, as well as in the infrastructures of large corporations, since it is open-source and greatly customizable. Data centres already use about 1 percent of the total electricity in the world, and it is estimated that it will grow to 3-8 percent in 2030. System-level efficiency is important because optimised operating system configurations can save a significant amount of energy, 1530 percent, by ensuring better utilisation of resources.
-The given coursework attempts to build a thorough knowledge of Linux server administration with a dual-system architecture, being a headless Linux server and a workstation to manipulate this server remotely using SSH. Through command-line administration, the evaluation instills professional remote administration and encourages expertise to perform basic system management upkeep, configuration, and system monitoring.
-The main goals of assessment are to arrange a secure Linux environment as a server, apply advanced security controls, and critically examine system behaviour during different workloads. Moreover, to complete the coursework, I usually focus on the evidence-based assessment as it is necessary to record the command-line task, configuration, and performance levels. This is a method of not only reinforcing useful Linux-based skills, but also provides critical thought, problem-solving, and decision-making in system administration. Finally, the evaluation equips the learners to design, secure, and optimise Linux servers optimally within real-life situations.
-Phase 1: System Planning and Distribution Selection
+# Introduction
+
+In contemporary computing, **operating systems** are the solution to server performance, security, and general reliability. Stability, efficiency, and large capabilities to ensure security make **Linux** very widely used in data centres and cloud platforms, as well as in the infrastructures of large corporations, since it is open-source and greatly customizable. Data centres already use about 1 percent of the total electricity in the world, and it is estimated that it will grow to 3-8 percent in 2030. System-level efficiency is important because optimised operating system configurations can save a significant amount of energy, **15-30 percent**, by ensuring better utilisation of resources.
+
+The given coursework attempts to build a thorough knowledge of Linux server administration with a dual-system architecture, being a **headless Linux server** and a **workstation** to manipulate this server remotely using SSH. Through command-line administration, the evaluation instills professional remote administration and encourages expertise to perform basic system management upkeep, configuration, and system monitoring.
+
+The main goals of assessment are to arrange a secure Linux environment as a server, apply advanced security controls, and critically examine system behaviour during different workloads. Moreover, to complete the coursework, I usually focus on the **evidence-based assessment** as it is necessary to record the command-line task, configuration, and performance levels. This is a method of not only reinforcing useful Linux-based skills, but also provides critical thought, problem-solving, and decision-making in system administration. Finally, the evaluation equips the learners to design, secure, and optimise Linux servers optimally within real-life situations.
+
+## Phase 1: System Planning and Distribution Selection
+
 The deployment of a good, hardened, and optimised Linux server environment requires efficient system planning. The selected architecture will be a two-system configuration, which is a headless Linux server and an independent workstation to do administration by use of SSH.
-System architecture
-The server runs the Ubuntu Server VM in headless mode with no graphical interface, which provides a low amount of resource overhead, as well as more security [1]. Remote access to the server is through the workstation, which can either be a Linux desktop VM or the host machine with an SSH client. Web -ke connection is established using VirtualBox's internal network, enabling two systems to communicate safely [2].
- 
-Figure 1: VMs running on VirtualBox
- 
-Figure 2: Connection between VMs successful
-Server Distribution Selection Justification
-Ubuntu Server was chosen because it has a great level of documentation, community support, long-term releases (LTS), and is compatible with various performance monitoring and security tools. Other options that include CentOS and Debian have been considered, but the easy package management (APT), regular updates to security features, and broad use in the enterprise world were the reasons for choosing Ubuntu [3].
-Workstation Configuration Decision
-The workstation needed is a Linux DESK VM to ensure a consistent command-line experience, ease of scripting, and minimize possible compatibility problems with SSH-based voices. The option to use the host machine was also an alternative, but this would restrict command-line control in a totally virtualised setting.
-Network setup and IP Addressing
+
+### System architecture
+
+The server runs the **Ubuntu Server VM** in headless mode with no graphical interface, which provides a low amount of resource overhead, as well as more security [1]. Remote access to the server is through the workstation, which can either be a Linux desktop VM or the host machine with an SSH client. Web-like connection is established using VirtualBox's internal network, enabling two systems to communicate safely [2].
+
+> **Figure 1: VMs running on VirtualBox**
+>
+> **Figure 2: Connection between VMs successful**
+
+### Server Distribution Selection Justification
+
+**Ubuntu Server** was chosen because it has a great level of documentation, community support, long-term releases (LTS), and is compatible with various performance monitoring and security tools. Other options that include CentOS and Debian have been considered, but the easy package management (APT), regular updates to security features, and broad use in the enterprise world were the reasons for choosing Ubuntu [3].
+
+### Workstation Configuration Decision
+
+The workstation needed is a **Linux DESK VM** to ensure a consistent command-line experience, ease of scripting, and minimize possible compatibility problems with SSH-based voices. The option to use the host machine was also an alternative, but this would restrict command-line control in a totally virtualised setting.
+
+### Network setup and IP Addressing
+
 The server has a fixed IP address in the internal VirtualBox network and ensures that there is always connectivity to the server so as to access and monitor through SSH. The workstation VM is a corresponding internal network interface with the server. NAT and host-only adapters, as network settings, are documented so that the settings can be reproducible and provide the security of the communication [4].
 
+## References
+
+[1]: Placeholder for Citation 1
+[2]: Placeholder for Citation 2
+[3]: Placeholder for Citation 3
+[4]: Placeholder for Citation 4
