@@ -33,7 +33,4 @@ System commands (`top`, `vmstat`, `iostat`, `netstat`) and SSH custom scripts wi
 
 The predictable resource utilisation patterns should be produced with each application, which allows monitoring the performance and revealing the bottlenecks.
 
-## References
-
-*(No specific citations were provided in the text, but this section is included for structural completeness.)*
 
