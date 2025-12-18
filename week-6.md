@@ -20,7 +20,12 @@ The following tools were used for resource monitoring and measurement:
 
 > **Figure 18: High CPU Usage**
 >
+> ![img alt](assets/images-6/Picture18.png)
+>
 > **Figure 19: High RAM utilisation**
+>
+> ![img alt](assets/images-6/Picture19.png)
+> 
 
 ## Load Testing and Bottleneck Identification
 
