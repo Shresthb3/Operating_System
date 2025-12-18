@@ -29,6 +29,7 @@ The following table summarizes the identified threats and their corresponding mi
 | Privilege Escalation | Mitigated with the help of **AppArmor**, least privilege policies, and the segregation of administrative users. | [8] |
 
 > **Figure 3: Tools needed installed**
+> 
 > ![img alt](assets/images-2/Picture3.png)
 
 This step provides a structured base for ensuring that the server is secured and monitored in a structured environment and that the further configuration and testing phases are implemented on a reliable and well-documented base.
@@ -55,6 +56,8 @@ The applications were pooled according to resource intensity to provide a system
 All the chosen performance testing applications were installed on the Ubuntu Server via SSH. The installation of packages followed the **APT package manager**, and repositories have been updated, which provides a secure and reproducible deployment of all the necessary tools that are command-line-based.
 
 > **Figure 4: Applications for performance testing installed**
+>
+> ![img alt](assets/images-2/Picture4.png)
 
 ## Monitoring Strategy
 
