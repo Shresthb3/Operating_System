@@ -47,9 +47,3 @@ Prior-and-comparisons between key configuration files, including `/etc/ssh/sshd.
 
 This stage provides a safe base for the upper security control measures and performance monitoring adopted in the later stages.
 
-## References
-
-[9]: Placeholder for Citation 9
-[10]: Placeholder for Citation 10
-[11]: Placeholder for Citation 11
-
