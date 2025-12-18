@@ -15,8 +15,12 @@ The deployment of a good, hardened, and optimised Linux server environment requi
 The server runs the **Ubuntu Server VM** in headless mode with no graphical interface, which provides a low amount of resource overhead, as well as more security [1]. Remote access to the server is through the workstation, which can either be a Linux desktop VM or the host machine with an SSH client. Web-like connection is established using VirtualBox's internal network, enabling two systems to communicate safely [2].
 
 > **Figure 1: VMs running on VirtualBox**
+> 
 > ![image alt](assets/images-1/Picture1.png)
+>
+> 
 > **Figure 2: Connection between VMs successful**
+> 
 > ![fig2](assets/images-1/Picture2.png)
 
 ### Server Distribution Selection Justification
