@@ -11,18 +11,24 @@ Various auditing tools and techniques were used to have a comprehensive assessme
 The execution of Lynis on the server produced a comprehensive report on the security assessment. The initial scan showed room for improvement, such as service hardening and configuration suggestions. The conclusion was that after remediation measures, the **hardening index** was improved, according to a second scan by Lynis, which indicated that the taken security measures were effective.
 
 > **Figure 20: Lynis Audit complete**
+>
+> ![img alt](assets/images-7/Picture20.png)
 
 ## Network Security Assessment with Nmap
 
 **Nmap** was used to scan the server from the workstation to analyze the network exposure. The findings affirmed that only ports that were necessary, and especially SSH, were open and accessible. The firewall filtered all other ports or closed them, which confirmed the effectiveness of **UFW rules** and network segmentation.
 
 > **Figure 21: Nmap Scan of the Server complete**
+>
+> ![img alt](assets/images-7/Picture21.png)
 
 ## Service Inventory and Justification
 
 A complete inventory of running services was made to ensure only necessary services were operational. All operational services were checked and validated according to their functionality or protection of the system. Non-utilized or redundant services were switched off as much as possible so as to reduce the attack surface.
 
 > **Figure 22: Services running on Ubuntu Server**
+>
+> ![img alt](assets/images-7/Picture22.png)
 
 ## Residual Risk Assessment
 
