@@ -23,6 +23,8 @@ All the chosen performance testing applications were installed on the Ubuntu Ser
 
 > **Figure 4: Applications for performance testing installed**
 
+![img alt](assets/images-2/Picture4.png)
+
 ## Monitoring Strategy
 
 System commands (`top`, `vmstat`, `iostat`, `netstat`) and SSH custom scripts will yield performance measurements as data on CPU, memory, disk, and network utilisation, as time goes by. This system of planning enables quality performance assessment that is also quantitative.
