@@ -7,16 +7,26 @@ This stage is aimed at implementing the Linux server and establishing the basic 
 The SSH service had been set to utilize **key-based authentication**, and password login was disabled. The workstation was used to generate an SSH key pair, and the public key was copied safely to the server's authorized keys file. **Root login** and **password authentication** were also turned off to decrease the attack surface and reduce unauthorized access [9].
 
 > **Figure 5: SSH key generated and added on Server**
->
+> 
+> ![img alt](assets/images-4/Picture5.png)
+> 
 > **Figure 6: Disabling Root Login and Password authentication**
 >
+> ![img alt](assets/images-4/Picture6.png)
+>
 > **Figure 7: SSH key added to authorised keys**
+>
+> ![img alt](assets/images-4/Picture7.png)
+> 
 
 ## Firewall Ruleset and Firewall Configuration
 
 The **Uncomplicated Firewall (UFW)** was configured on the server to regulate the incoming and outgoing traffic. The firewall was set to allow the IP address of the workstation to have SSH access, but not to allow access by a remote host, effectively isolating access to a trusted network. All other inbound connections were rejected by default, providing a network-level **least privilege principle** [10].
 
 > **Figure 8: SSH restarted and UFW enabled**
+>
+> ![img alt](assets/images-4/Picture8.png)
+> 
 
 ## User and Privilege Management
 
@@ -27,6 +37,9 @@ An administrative user who was not a root was created to do the routine manageme
 The workstation was able to establish a successful SSH connection with the Ubuntu Server, which is an indicator that key-based authentication and firewall restrictions could be implemented as programmed features. The command line was used to perform all system administration functions such as user management, firewall setup, and service restart.
 
 > **Figure 9: Connection to Ubuntu Server successful**
+>
+> ![img alt](assets/images-4/Picture9.png)
+> 
 
 ## Configuration File Comparison
 
